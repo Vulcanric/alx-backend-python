@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Defines a type-annotated function, `make_multiplier`. It takes in a float
 `multiplier` as argument and returns a function that multiplies a float
