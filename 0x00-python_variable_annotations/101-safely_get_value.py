@@ -12,6 +12,9 @@ def safely_get_value(dct: Mapping,
                      key: Any,
                      default: Optional[T] = None
                      ) -> Any | T:
+    """
+    Done: ye done!
+    """
     if key in dct:
         return dct[key]
     else:
