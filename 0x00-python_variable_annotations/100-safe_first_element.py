@@ -15,6 +15,11 @@ from typing import Sequence, Any, Union
 #
 # To
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
+    """
+    Function safe_first_element
+        Takes in a data sequence of any type and returns...
+       Returns: Either the sequency or None
+    """
     if lst:
         return lst[0]
     else:
