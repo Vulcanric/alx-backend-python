@@ -5,7 +5,7 @@ import random
 from typing import AsyncGenerator
 
 
-async def async_generator() -> AsyncGenerator[float, None, None]:
+async def async_generator() -> AsyncGenerator[float, None]:
     """
     Loop 10 times, asynchronously delaying for 1 second  in each iteration
 
